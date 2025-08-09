@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 
 # Load Data
-df = pd.read_csv("../Datasets/Nifty_Stocks.csv")
+df = pd.read_csv("Nifty_Stocks.csv")
 df['Date'] = pd.to_datetime(df['Date'])
 
 # Sidebar Filters
